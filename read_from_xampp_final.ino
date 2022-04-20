@@ -51,7 +51,7 @@ Serial.println(" cm");
 Serial.println("\nStarting connection to server...");
 if (client.connect("192.168.43.198", 80)) {
 Serial.println("Connected to server!");
-client.print("GET /file3/receive1.php?"); // This
+client.print("GET /water/receive.php?"); // This
 client.print("water="); // This
 
 
