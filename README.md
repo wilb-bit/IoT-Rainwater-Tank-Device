@@ -10,6 +10,7 @@ Penultimate yearlong project
 2. Reads the water level of the tank (ultrasonic range sensor).   
 3. Sends this to the websever using PHP GET calling 'water/recieve.php?'. This file will then save it to the MySql database.
 4. Sleeps for 10 seconds (for demo purposes). 
+5. Repeat the steps again
 
 ## Webserver
 Code located in other respository (IoT-Rainwater-Tank-Webserver) 
