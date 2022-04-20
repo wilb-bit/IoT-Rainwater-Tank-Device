@@ -6,6 +6,7 @@ Penultimate yearlong project
 
 
 ## IoT device
+NodeMCU (ESP8266) programmed with Arduino IDE. Ultrasonic range sensor used to find the distance between the top of the tank and the water level. 
 1. Wakes and connects to wifi and web server.   
 2. Reads the water level of the tank (ultrasonic range sensor).   
 3. Sends this to the websever using PHP GET calling 'water/recieve.php?'. This file will then save it to the MySql database.
