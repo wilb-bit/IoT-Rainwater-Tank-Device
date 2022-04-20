@@ -6,8 +6,10 @@ Penultimate yearlong project
 
 
 ## IoT device
-•	Wakes and connects to wifi and web server. Reads the water level of the tank (ultrasonic range sensor). Sends this to the websever using PHP GET calling 'water/recieve.php?'.
-Sleeps for 10 seconds (for demo purposes). 
+1. Wakes and connects to wifi and web server.   
+2. Reads the water level of the tank (ultrasonic range sensor).   
+3. Sends this to the websever using PHP GET calling 'water/recieve.php?'. This file will then save it to the MySql database.
+4. Sleeps for 10 seconds (for demo purposes). 
 
 ## Webserver
 Code located in other respository (IoT-Rainwater-Tank-Webserver) 
