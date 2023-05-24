@@ -1,5 +1,5 @@
 # IoT-Rainwater-Tank
-Penultimate yearlong project
+Penultimate yearlong project. Further detailed information can be found in the report (IoT-Rainwater-Tank.pdf).
 
 •	Engineered a solar-powered Internet of Things (IoT) device to remotely monitor the fullness of a rainwater tank, from anywhere with an internet connection (lifetime: 10+ years).
 
